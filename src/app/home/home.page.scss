@@ -27,10 +27,25 @@
 }
 
 ion-avatar img  {
-  width:150% !important;
-  height : 150% !important;
-  max-width: 150px !important;  //any size
-  max-height: 150px !important; //any size
+  width:120% !important;
+  height : 120% !important;
+  max-width: 80px !important;  //any size
+  max-height: 80px !important; //any size
   }
 
+  ion-list{
+    width: 20cm;
+    height :2.5cm;
+  }
+ion-list{
+
+  background-color: rgb(240, 248, 255);
+}
+
+h1{
   
+  font-size: 200%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  display: flex;
+  background-color: rgb(240, 248, 255);
+}

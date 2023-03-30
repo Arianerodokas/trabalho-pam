@@ -4,15 +4,17 @@ import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 
 @Component({
-  selector: 'app-ariane',
-  templateUrl: './ariane.page.html',
-  styleUrls: ['./ariane.page.scss'],
+  selector: 'app-gabi',
+  templateUrl: './gabi.page.html',
+  styleUrls: ['./gabi.page.scss'],
   standalone: true,
   imports: [IonicModule, CommonModule, FormsModule]
 })
-export class ArianePage {
+export class GabiPage implements OnInit {
 
   constructor() { }
 
+  ngOnInit() {
+  }
 
 }

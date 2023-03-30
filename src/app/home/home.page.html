@@ -7,10 +7,10 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-<h1> Lista de Contatos</h1>
+<h1 > Lista de Contatos</h1>
   <ion-content>
     <ion-list>
-      <ion-item (click)="goToRoute('viper')">
+      <ion-item (click)="goToRoute('ariane')">
         <ion-avatar slot="start">
        <img src="../../assets/icon/ari.jfif" alt="">
         </ion-avatar>
@@ -19,7 +19,7 @@
     </ion-list>
 
     <ion-list>
-      <ion-item>
+      <ion-item (click)="goToRoute('ana')">
         <ion-avatar slot="start">
        <img src="../../assets/icon/ana.jfif" alt="">
         </ion-avatar>
@@ -28,7 +28,7 @@
     </ion-list>
 
     <ion-list>
-      <ion-item>
+      <ion-item (click)="goToRoute('duda')">
         <ion-avatar slot="start">
        <img src="../../assets/icon/duda.jfif" alt="">
         </ion-avatar>
@@ -38,7 +38,7 @@
 
     <ion-list>
       <ion-item>
-        <ion-avatar slot="start">
+        <ion-avatar slot="start" (click)="goToRoute('gabi')">
        <img src="../../assets/icon/gabi.jfif" alt="">
         </ion-avatar>
         <ion-label>Gabriela Vitória</ion-label>
@@ -46,7 +46,7 @@
     </ion-list>
 
     <ion-list>
-      <ion-item>
+      <ion-item (click)="goToRoute('mari')">
         <ion-avatar slot="start">
        <img src="../../assets/icon/mari.jfif" alt="">
         </ion-avatar>
