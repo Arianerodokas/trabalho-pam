@@ -1,0 +1,7 @@
+{
+  "name": "trablho-pam",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
