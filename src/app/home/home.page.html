@@ -1,20 +1,62 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      Contatos
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<h1> Lista de Contatos</h1>
+  <ion-content>
+    <ion-list>
+      <ion-item (click)="goToRoute('viper')">
+        <ion-avatar slot="start">
+       <img src="../../assets/icon/ari.jfif" alt="">
+        </ion-avatar>
+        <ion-label>Ariane Rodokas</ion-label>
+      </ion-item>
+    </ion-list>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+    <ion-list>
+      <ion-item>
+        <ion-avatar slot="start">
+       <img src="../../assets/icon/ana.jfif" alt="">
+        </ion-avatar>
+        <ion-label>Ana Clara Duarte</ion-label>
+      </ion-item>
+    </ion-list>
+
+    <ion-list>
+      <ion-item>
+        <ion-avatar slot="start">
+       <img src="../../assets/icon/duda.jfif" alt="">
+        </ion-avatar>
+        <ion-label>Maria Eduarda Gigliolli </ion-label>
+      </ion-item>
+    </ion-list>
+
+    <ion-list>
+      <ion-item>
+        <ion-avatar slot="start">
+       <img src="../../assets/icon/gabi.jfif" alt="">
+        </ion-avatar>
+        <ion-label>Gabriela Vitória</ion-label>
+      </ion-item>
+    </ion-list>
+
+    <ion-list>
+      <ion-item>
+        <ion-avatar slot="start">
+       <img src="../../assets/icon/mari.jfif" alt="">
+        </ion-avatar>
+        <ion-label>Mariana Rove</ion-label>
+      </ion-item>
+    </ion-list>
+
+    <ion-infinite-scroll >
+      <ion-infinite-scroll-content></ion-infinite-scroll-content>
+    </ion-infinite-scroll>
+  </ion-content>
+
 </ion-content>

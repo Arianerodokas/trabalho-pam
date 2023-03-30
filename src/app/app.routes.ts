@@ -10,4 +10,8 @@ export const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full',
   },
+  {
+    path: 'ariane',
+    loadComponent: () => import('./ariane/ariane.page').then( m => m.ArianePage)
+  },
 ];
