@@ -10,9 +10,10 @@ import { IonicModule } from '@ionic/angular';
   standalone: true,
   imports: [IonicModule, CommonModule, FormsModule]
 })
-export class ArianePage {
+export class ArianePage implements OnInit {
 
   constructor() { }
 
+  ngOnInit() {}
 
 }
