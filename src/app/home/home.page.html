@@ -1,14 +1,14 @@
 <ion-header [translucent]="true" >
-  <ion-toolbar color="rosa escuro">
-    <ion-title>
+  <ion-toolbar color="rosa-dois">
+    <ion-title color="light">
      Lista de contatos
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true"  >
+<ion-content [fullscreen]="true">
 
-  <ion-content >
+  <ion-content  color="rosa-escuro">
     <ion-list>
       <ion-item (click)="goToRoute('ariane')" >
         <ion-avatar slot="start">
@@ -37,8 +37,8 @@
     </ion-list>
 
     <ion-list>
-      <ion-item>
-        <ion-avatar slot="start" (click)="goToRoute('gabi')">
+      <ion-item (click)="goToRoute('gabi')">
+        <ion-avatar slot="start" >
        <img src="../../assets/icon/gabi.jpg" alt="">
         </ion-avatar>
         <ion-label>Gabriela Vitória</ion-label>

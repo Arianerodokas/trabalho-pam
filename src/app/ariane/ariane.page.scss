@@ -5,14 +5,34 @@ img{
   margin-left: auto;
   margin-right: auto;
   width: 70%;
-  border-radius:100px ;
+  border-radius:150px ;
 }
 
 ion-title{
   text-align: center;
+ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 ion-card{
   background-color: rgb(255, 225, 239);
-  margin-top: 30px;
+  margin-top: 40px;
+}
+hr{
+  background-color: rgb(211, 211, 211);
+}
+
+ion-icon{
+  height: 30px;
+  width: 30px;
+  color: rgb(53, 53, 53);
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.icons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background-color: rgb(255, 225, 239);
 }
